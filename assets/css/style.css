@@ -1,0 +1,48 @@
+body, html, section {
+  background-color: #202124;
+  color: white;
+}
+.navtop, .navbot {
+  background-color: #35363a;
+}
+.nav-link:hover {
+  color: #FE842C;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.empyrionServer, .mods {
+  text-shadow: 2px 2px 4px black;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background: rgb(48,48,52);
+  background: linear-gradient(90deg, rgba(48,48,52,1) 0%, rgba(61,60,60,1) 48%, rgba(48,48,52,1) 100%);
+  box-shadow: 4px 4px 10px rgb(27, 27, 27);
+  border: 1px solid rgba(32, 32, 34, 0.3);
+}
+.onlineDot {
+  width: 10px;
+  height: 10px;
+  background: rgb(209,66,66);
+  background: radial-gradient(circle, rgba(209,66,66,1) 0%, rgba(177,9,9,1) 67%, rgba(129,12,12,1) 100%);
+  box-shadow: 4px 4px 10px rgb(27, 27, 27);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  top: 5px;
+  right: 5px;
+}
+.green {
+  background: rgb(66,209,69);
+  background: radial-gradient(circle, rgba(66,209,69,1) 0%, rgba(83,177,9,1) 67%, rgba(63,129,12,1) 100%);
+  box-shadow: 4px 4px 10px rgb(27, 27, 27);
+  border: 1px solid rgba(87, 87, 87, 0.3);
+}
+@media (max-width: 576px) { 
+  h1 {
+    margin-bottom: 5px;
+  }
+  a img {
+    width: 10%;
+  }
+ }
